@@ -510,12 +510,12 @@
     margin-top: 15px;
 }
 .team .member .social a {
-    color: #7e9486;
+    /*color: #7e9486;*/
     transition: 0.3s;
 }
 .team .member .social i {
     font-size: 22px;
-    color: skyblue;
+    color: #1bb1dc;
     margin: 0 2px;
 }
 
@@ -536,12 +536,19 @@
 		width:287.98px :;
 	}
 }
+.team button[type="button"] {
+    background: #1bb1dc;
+    border: 0;
+    padding: 10px 35px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+}
+.team button[type="button"] i{
+  font-size: 15px;
+  padding-left: 10px;
 
-
-
-
-
-
+}
 /* episodes Section
 --------------------------------*/
 #episodes {
@@ -607,8 +614,18 @@
 #episodes .box .episodes-iten .episodes-content h3 a::hover{
   text-decoration:none;
 }
-
-
+#episodes button[type="button"] {
+    /*background: #eef0ef;*/
+    border: 0;
+    padding: 10px 35px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+}
+#episodes button[type="button"] i{
+  font-size: 15px;
+  padding-left: 10px;
+}
 
 /*Our  Community*/
 .community {
@@ -678,6 +695,7 @@
     /*background: #a0bcd5;*/
     background:#1bb1dc;
 }
+
 .community .member .social a + a {
     margin-left: 8px;
 }
@@ -686,8 +704,28 @@
     font-size: 16px;
     margin: 0 2px;
 }
+@media (min-width:768px){
+  .community .member .social a {
+    width: 40px;
+    height: 40px;
+  }
+  .community .member .social a i{
+    font-size: 22px;
+  }
+}
 
-
+.community button[type="button"] {
+    background: #1bb1dc;
+    border: 0;
+    padding: 10px 35px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+}
+.community button[type="button"] i{
+  font-size: 15px;
+  padding-left: 10px;
+}
 /*Conatct us*/
 
 .contact .php-email-form {
