@@ -109,6 +109,9 @@
   text-transform: uppercase;
   font-weight: 600;
 }
+.menu-style a{
+color: black;
+}
 
 .main-nav a:hover, .main-nav .active > a, .main-nav li:hover > a {
   color: #1bb1dc;
